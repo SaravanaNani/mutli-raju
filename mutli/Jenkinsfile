@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('raham') {
             steps {
-                sh 'touch file2'
+                sh 'touch file1'
             }
         }
     }
